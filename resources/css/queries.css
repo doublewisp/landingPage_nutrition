@@ -1,0 +1,76 @@
+/* stop on 1200 = row width (1400px) + some margin */
+
+/* Landscape tablets */ 
+@media only screen and (max-width: 1200px) {
+
+    .row { padding: 0 2%; }
+}
+
+/* Big tablets */
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px; }
+}
+
+/* Larger phones - small tablets */
+@media only screen and (max-width: 767px) {
+    body { font-size: 16px; }
+    section { padding: 30px 0; }
+    .row,
+    .col {
+        width: 100%; 
+        margin: 0 0 4% 0;
+    }
+     
+    h1 { font-size: 200%; }
+    h2 { font-size: 150%; }
+    h3 { font-size: 80%; }
+    
+    .navbar {
+        font-size: 80%;
+        height: 6%
+    }
+    
+    .head-flexer {
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+        padding: 20% 0;
+    }
+    
+    .head-text {
+        padding-bottom: 7%;
+        text-align: center;
+        width: 80%;
+    }
+    
+    .head-contact-form {
+        padding-top: 12%;
+        padding-bottom: 5%;
+        width: 80%;
+        justify-content: center;
+    }
+    
+    .footer-content {
+        position: relative;
+        height: 6%;
+        font-size: 70%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .footer-info, .footer-copyright {
+        text-align: center;
+        width: 80%;
+    }
+    
+    .footer-copyright {
+        padding-top: 1%; 
+    }
+    
+}
+
+/* Small phones */
+@media only screen and (max-width: 480px) {
+    section { padding: 25px 0; }
+    .contact-form { width: 100%; }
+}

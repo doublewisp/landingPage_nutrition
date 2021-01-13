@@ -1,0 +1,243 @@
+/*---------------------------
+---------- GENERAL ----------
+---------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*:focus {
+    outline: none;
+}
+
+html {
+    background-color: #fff;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 220%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 150%;
+    word-spacing: 2px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    color: #e5e5e5;
+}
+
+
+h3 {
+    font-size: 100%;
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #53b095;
+}
+
+/* ---------------------------------------------------- */
+/* COMPONENTS */
+/* ---------------------------------------------------- */
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 80px 0;
+}
+
+.box {
+    padding: 1%;
+}
+
+/* ---------------------------------------------------- */
+/* HEADER */
+/* ---------------------------------------------------- */
+
+
+.navbar {
+    
+    display: flex;
+    background-color: #fff;
+    width: 100%;
+    padding: 0 4%;
+    height: 10%;
+    align-items: center;
+    color: #53b095;
+    align-items: center;
+    font-size: 100%;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 90;
+    top: 0;
+    left: 0;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.45);
+}
+
+.navbar a {
+    color: #53b095;
+    
+}
+
+.navbar-info {
+    text-align: left;
+    width: 50%;
+}
+
+.navbar-menu {
+    text-align: right;
+    width: 50%;
+    font-size: 150%;
+}
+
+/* ---------------------------------------------------- */
+/* HEADER */
+/* ---------------------------------------------------- */
+header {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0))), url(img/main-bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.5))), url(img/main-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.head-flexer {
+    display: flex;
+    width: 100%;
+    padding: 0 4%;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head-text,
+.head-contact-form {
+    width: 50%;
+}
+
+.head-text {
+    text-align: left;
+}
+
+.head-contact-form { 
+    text-align: left;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+   
+}
+
+/* ---------------------------------------------------- */
+/* TEXT SECTION */
+/* ---------------------------------------------------- */
+
+.text-section {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0))), url(img/main-bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.5))), url(img/main-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.text-body {
+    background: #53b095;
+    padding: 5%;
+    margin: 10%;
+}
+
+.text-section h3, .text-section h2 {
+    padding-top: 2%;
+}
+
+.text-section p {
+    font-size: 70%;
+    text-align: justify;
+}
+/* ---------------------------------------------------- */
+/* FOOTER */
+/* ---------------------------------------------------- */
+
+
+.footer-content {
+    display: flex;
+    background-color: #fff;
+    width: 100%;
+    padding: 0 4%;
+    height: 6%;
+    align-items: center;
+    color: #576983;
+    justify-content: space-between;
+    font-size: 60%;
+    position: absolute;
+    z-index: 90;
+    bottom: 0;
+    left: 0;
+}
+
+.footer-content-generic {
+    display: flex;
+    background-color: #fff;
+    width: 100%;
+    padding: 0 4%;
+    height: 6%;
+    align-items: center;
+    color: #576983;
+    justify-content: space-between;
+    font-size: 60%;
+    z-index: 90;
+    bottom: 0;
+    left: 0;
+}
+
+.footer-content a {
+    color: #53b095;
+}
+
+.footer-info {
+    text-align: left;
+    width: 50%;
+}
+
+.footer-copyright {
+    text-align: right;
+    width: 50%;
+}
+
+
